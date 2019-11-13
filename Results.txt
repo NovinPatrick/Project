@@ -1,0 +1,60 @@
+UNIT TEST:
+---------
+
+Testing started at 5:20 PM ...
+C:\Users\novin.patrick\PycharmProjects\proj\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\helpers\pycharm\_jb_unittest_runner.py" --target test_tan_fun.TestTan
+Launching unittests with arguments python -m unittest test_tan_fun.TestTan in C:\Users\novin.patrick\PycharmProjects\proj
+
+
+
+Ran 1 test in 0.064s
+
+OK
+-1.995200412
+1.995200412
+0.0
+1.557407725
+-0.611273688
+
+Process finished with exit code 0
+
+===========================================================================================================================================================================================================
+
+CODE COVERAGE:
+--------------
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+
+(venv) C:\Users\novin.patrick\PycharmProjects\proj>coverage report
+Name              Stmts   Miss  Cover
+-------------------------------------
+tan_func.py           6      0   100%
+test_tan_fun.py      12      0   100%
+-------------------------------------
+TOTAL                18      0   100%
+
+
+CODE COVERAGE(PYLINT):
+---------------------
+tan_func.py 
+----------
+
+(venv) C:\Users\novin.patrick\PycharmProjects\proj>pylint tan_func.py
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10
+
+
+(venv) C:\Users\novin.patrick\PycharmProjects\proj>pylint test_tan_fun.py
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 
+
+
+
+
